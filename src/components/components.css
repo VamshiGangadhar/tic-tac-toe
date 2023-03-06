@@ -1,0 +1,35 @@
+*{
+    scroll-behavior: smooth;
+    background-color: #282727;
+}
+
+.game_box{
+    height: 60px;
+    width: 60px;
+    background-color: aqua;
+    border: solid 1.5px #473C33;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Courier;
+    color: #473C33;
+    animation: rotation 30s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+button.active{
+    position: relative;
+}
+
+.game_box:hover{
+    background-color: #22ff00;
+    box-shadow: 5px 5px 5px #919191;
+}
