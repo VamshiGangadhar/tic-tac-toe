@@ -47,7 +47,6 @@ const Gameboard = () => {
           console.log(firstPlayer);
           player1 = true;
           result.current.innerHTML = "First Player Wins";
-          //   return;
           clearBoard();
         }
       }
